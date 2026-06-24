@@ -149,7 +149,7 @@ const formatPrice = (n) => "$" + n.toLocaleString("es-CL");
 function waLink(text) {
   return `https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(text)}`;
 }
-const igLink = () => `https://instagram.com/${CONFIG.instagram}`;
+const igLink = () => `https://www.instagram.com/tiendita.vale.knits?igsh=ZTIwbHlwZnoybjB2`;
 function mailLink(subject) {
   return `mailto:${CONFIG.email}?subject=${encodeURIComponent(subject)}`;
 }
